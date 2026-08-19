@@ -1,0 +1,26 @@
+# YegnaFit MVP smoke tests
+
+## Test 1 — Complete onboarding
+1. Select Build strength.
+2. Select High protein.
+3. Select 3–4 days.
+4. Enter a name.
+5. Tap Build my plan.
+Expected: personalized Home dashboard appears.
+
+## Test 2 — Log a local meal
+1. Open Meals.
+2. Open Beso Power Bowl.
+3. Add it to today.
+4. Return Home.
+Expected: calories increase by 420 and protein by 22g.
+
+## Test 3 — Hydration and progress
+1. Tap Add glass.
+2. Open Progress.
+Expected: water count increases and wellness metrics are visible.
+
+## Test 4 — Reset demo
+1. Open Profile.
+2. Tap Reset demo.
+Expected: app returns to onboarding.
