@@ -1,0 +1,17 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+@import url('https://fonts.googleapis.com/css2?family=DM+Sans:wght@400;500;600;700;800;900&family=Noto+Sans+Ethiopic:wght@400;500;600;700;800&display=swap');
+
+:root {
+  font-family: 'DM Sans','Noto Sans Ethiopic',system-ui,sans-serif;
+  background:#0b0b0e;
+  color:#fff;
+  font-synthesis:none;
+}
+* { box-sizing:border-box; }
+html,body,#root { margin:0; min-width:320px; min-height:100vh; background:#0b0b0e; }
+button,input { font:inherit; }
+button { cursor:pointer; }
+::selection { background:rgba(0,255,135,.25); }
